@@ -1,0 +1,364 @@
+booster[0]:
+0:[udp_length<39] yes=1,no=2,missing=1
+	1:[total_len<59] yes=3,no=4,missing=3
+		3:[ttl<128] yes=7,no=8,missing=7
+			7:[tcp_window<3] yes=15,no=16,missing=15
+				15:[total_len<43] yes=31,no=32,missing=31
+					31:[ttl<73] yes=59,no=60,missing=59
+						59:[ttl<49] yes=113,no=114,missing=113
+							113:[ttl<47] yes=209,no=210,missing=209
+								209:leaf=-0.550411046
+								210:leaf=-0.462878793
+							114:leaf=-0.575516701
+						60:[ttl<122] yes=115,no=116,missing=115
+							115:[udp_length<13] yes=211,no=212,missing=211
+								211:leaf=-0.33374685
+								212:leaf=-0.563029587
+							116:leaf=0.507692337
+					32:[udp_length<29] yes=61,no=62,missing=61
+						61:[total_len<48] yes=117,no=118,missing=117
+							117:[ttl<103] yes=213,no=214,missing=213
+								213:leaf=0.40359956
+								214:leaf=-0.376470625
+							118:[ttl<52] yes=215,no=216,missing=215
+								215:leaf=0.440884024
+								216:leaf=0.559657753
+						62:[total_len<57] yes=119,no=120,missing=119
+							119:[total_len<56] yes=217,no=218,missing=217
+								217:leaf=-0.372496903
+								218:leaf=-0.12100251
+							120:[ttl<113] yes=219,no=220,missing=219
+								219:leaf=0.30791831
+								220:leaf=0.386606872
+				16:[tcp_window<5860] yes=33,no=34,missing=33
+					33:[tcp_window<4950] yes=63,no=64,missing=63
+						63:[total_len<51] yes=121,no=122,missing=121
+							121:[ttl<49] yes=221,no=222,missing=221
+								221:leaf=0.450148672
+								222:leaf=0.591092527
+							122:leaf=0.598782539
+						64:[ttl<49] yes=123,no=124,missing=123
+							123:[diffserv<4] yes=223,no=224,missing=223
+								223:leaf=0.160096586
+								224:leaf=0.344510347
+							124:[diffserv<144] yes=225,no=226,missing=225
+								225:leaf=0.466498107
+								226:leaf=-0.335433066
+					34:[ttl<52] yes=65,no=66,missing=65
+						65:[ttl<51] yes=125,no=126,missing=125
+							125:[ttl<46] yes=227,no=228,missing=227
+								227:leaf=0.584097147
+								228:leaf=0.553819358
+							126:[diffserv<40] yes=229,no=230,missing=229
+								229:leaf=0.565535307
+								230:leaf=-0.127659589
+						66:[tcp_window<65340] yes=127,no=128,missing=127
+							127:[tcp_window<65336] yes=231,no=232,missing=231
+								231:leaf=0.584374666
+								232:leaf=-0.116666675
+							128:[ttl<96] yes=233,no=234,missing=233
+								233:leaf=0.380357176
+								234:leaf=0.592826128
+			8:[total_len<42] yes=17,no=18,missing=17
+				17:[tcp_window<35] yes=35,no=36,missing=35
+					35:[total_len<33] yes=67,no=68,missing=67
+						67:[total_len<31] yes=129,no=130,missing=129
+							129:leaf=-0.0886956602
+							130:leaf=0.287372023
+						68:[proto<12] yes=131,no=132,missing=131
+							131:[ttl<155] yes=235,no=236,missing=235
+								235:leaf=0.283587456
+								236:leaf=-0.58005178
+							132:leaf=-0.584334254
+					36:[ttl<233] yes=69,no=70,missing=69
+						69:[tcp_window<65359] yes=133,no=134,missing=133
+							133:[tcp_window<65098] yes=237,no=238,missing=237
+								237:leaf=0.552246511
+								238:leaf=0.199022979
+							134:[tcp_window<65525] yes=239,no=240,missing=239
+								239:leaf=0.594930232
+								240:leaf=0.549384117
+						70:[tcp_window<65535] yes=135,no=136,missing=135
+							135:[ttl<234] yes=241,no=242,missing=241
+								241:leaf=-0.041295547
+								242:leaf=0.501098931
+							136:[ttl<236] yes=243,no=244,missing=243
+								243:leaf=-0.542222261
+								244:leaf=-0.37570098
+				18:[total_len<57] yes=37,no=38,missing=37
+					37:[tcp_dataOffset<8] yes=71,no=72,missing=71
+						71:[udp_length<29] yes=137,no=138,missing=137
+							137:[total_len<49] yes=245,no=246,missing=245
+								245:leaf=-0.0488223657
+								246:leaf=0.598845065
+							138:[total_len<56] yes=247,no=248,missing=247
+								247:leaf=-0.256723732
+								248:leaf=-0.464714587
+						72:[tcp_window<65364] yes=139,no=140,missing=139
+							139:[tcp_window<65124] yes=249,no=250,missing=249
+								249:leaf=0.564935088
+								250:leaf=0.376991183
+							140:leaf=0.582148194
+					38:[proto<12] yes=73,no=74,missing=73
+						73:leaf=0.574342132
+						74:[total_len<58] yes=141,no=142,missing=141
+							141:leaf=-0.314999998
+							142:[ttl<152] yes=251,no=252,missing=251
+								251:leaf=0.326752692
+								252:leaf=0.370297015
+		4:[tcp_window<3] yes=9,no=10,missing=9
+			9:[ttl<110] yes=19,no=20,missing=19
+				19:leaf=0.450000018
+				20:leaf=-0.597238243
+			10:[tcp_window<65535] yes=21,no=22,missing=21
+				21:[tcp_dataOffset<11] yes=39,no=40,missing=39
+					39:leaf=0.598185778
+					40:[total_len<108] yes=75,no=76,missing=75
+						75:[tcp_window<65148] yes=143,no=144,missing=143
+							143:leaf=0.543341458
+							144:leaf=0.272727281
+						76:leaf=-0
+				22:[ttl<26] yes=41,no=42,missing=41
+					41:[ttl<12] yes=77,no=78,missing=77
+						77:leaf=-0.296000004
+						78:leaf=-0.550000012
+					42:[total_len<109] yes=79,no=80,missing=79
+						79:[total_len<108] yes=145,no=146,missing=145
+							145:[tcp_dataOffset<9] yes=253,no=254,missing=253
+								253:leaf=0.596066833
+								254:leaf=0.575236142
+							146:[ttl<128] yes=255,no=256,missing=255
+								255:leaf=0.596615314
+								256:leaf=0.504109919
+						80:leaf=0.594027162
+	2:[total_len<354] yes=5,no=6,missing=5
+		5:[total_len<97] yes=11,no=12,missing=11
+			11:[total_len<95] yes=23,no=24,missing=23
+				23:[total_len<70] yes=43,no=44,missing=43
+					43:[ttl<118] yes=81,no=82,missing=81
+						81:[total_len<66] yes=147,no=148,missing=147
+							147:[total_len<61] yes=257,no=258,missing=257
+								257:leaf=-0.557489932
+								258:leaf=-0.291369975
+							148:[total_len<68] yes=259,no=260,missing=259
+								259:leaf=-0.4848921
+								260:leaf=-0.554080248
+						82:[total_len<63] yes=149,no=150,missing=149
+							149:[total_len<61] yes=261,no=262,missing=261
+								261:leaf=-0.455335975
+								262:leaf=0.565591455
+							150:[total_len<64] yes=263,no=264,missing=263
+								263:leaf=-0.516011775
+								264:leaf=-0.316643894
+					44:[total_len<71] yes=83,no=84,missing=83
+						83:[ttl<116] yes=151,no=152,missing=151
+							151:[ttl<113] yes=265,no=266,missing=265
+								265:leaf=-0.0545374267
+								266:leaf=-0.00408781227
+							152:[ttl<154] yes=267,no=268,missing=267
+								267:leaf=0.0651093796
+								268:leaf=-0.388235331
+						84:[total_len<73] yes=153,no=154,missing=153
+							153:[ttl<123] yes=269,no=270,missing=269
+								269:leaf=-0.46931538
+								270:leaf=-0.508080244
+							154:[total_len<74] yes=271,no=272,missing=271
+								271:leaf=0.00139274925
+								272:leaf=-0.248634845
+				24:[ttl<64] yes=45,no=46,missing=45
+					45:[total_len<96] yes=85,no=86,missing=85
+						85:[ttl<47] yes=155,no=156,missing=155
+							155:[diffserv<49] yes=273,no=274,missing=273
+								273:leaf=0.242996752
+								274:leaf=-0.360000014
+							156:[diffserv<44] yes=275,no=276,missing=275
+								275:leaf=-0.193043485
+								276:leaf=0.0837209374
+						86:[ttl<15] yes=157,no=158,missing=157
+							157:leaf=-0
+							158:leaf=0.521739125
+					46:[diffserv<2] yes=87,no=88,missing=87
+						87:[total_len<96] yes=159,no=160,missing=159
+							159:[ttl<128] yes=277,no=278,missing=277
+								277:leaf=0.215094343
+								278:leaf=0.352146506
+							160:[ttl<122] yes=279,no=280,missing=279
+								279:leaf=0.561445832
+								280:leaf=0.291208535
+						88:[total_len<96] yes=161,no=162,missing=161
+							161:[ttl<112] yes=281,no=282,missing=281
+								281:leaf=0.305309743
+								282:leaf=0.259903401
+							162:leaf=0.555555582
+			12:[total_len<315] yes=25,no=26,missing=25
+				25:[total_len<127] yes=47,no=48,missing=47
+					47:[total_len<126] yes=89,no=90,missing=89
+						89:[total_len<116] yes=163,no=164,missing=163
+							163:[total_len<100] yes=283,no=284,missing=283
+								283:leaf=-0.39633128
+								284:leaf=-0.300343335
+							164:[total_len<117] yes=285,no=286,missing=285
+								285:leaf=0.591124892
+								286:leaf=-0.0587156005
+						90:[ttl<126] yes=165,no=166,missing=165
+							165:[ttl<53] yes=287,no=288,missing=287
+								287:leaf=-0.56375289
+								288:leaf=-0.590832531
+							166:[ttl<176] yes=289,no=290,missing=289
+								289:leaf=0.433333337
+								290:leaf=-0.592258096
+					48:[total_len<130] yes=91,no=92,missing=91
+						91:[ttl<49] yes=167,no=168,missing=167
+							167:[ttl<45] yes=291,no=292,missing=291
+								291:leaf=0.0199152548
+								292:leaf=0.119241521
+							168:[ttl<107] yes=293,no=294,missing=293
+								293:leaf=-0.11459481
+								294:leaf=-0.048880212
+						92:[total_len<132] yes=169,no=170,missing=169
+							169:[total_len<131] yes=295,no=296,missing=295
+								295:leaf=-0.339360386
+								296:leaf=-0.453932643
+							170:[total_len<266] yes=297,no=298,missing=297
+								297:leaf=-0.269364476
+								298:leaf=-0.394893736
+				26:[total_len<323] yes=49,no=50,missing=49
+					49:[total_len<319] yes=93,no=94,missing=93
+						93:[total_len<316] yes=171,no=172,missing=171
+							171:[diffserv<16] yes=299,no=300,missing=299
+								299:leaf=-0.487688661
+								300:leaf=-0.430185974
+							172:[diffserv<24] yes=301,no=302,missing=301
+								301:leaf=0.343448281
+								302:leaf=-0.300000012
+						94:[total_len<320] yes=173,no=174,missing=173
+							173:[ttl<110] yes=303,no=304,missing=303
+								303:leaf=-0
+								304:leaf=-0.592124283
+							174:[total_len<322] yes=305,no=306,missing=305
+								305:leaf=-0
+								306:leaf=-0.421338171
+					50:[total_len<344] yes=95,no=96,missing=95
+						95:[ttl<109] yes=175,no=176,missing=175
+							175:[ttl<50] yes=307,no=308,missing=307
+								307:leaf=-0.453846157
+								308:leaf=-0.304743081
+							176:[diffserv<49] yes=309,no=310,missing=309
+								309:leaf=-0.180517808
+								310:leaf=0.339130431
+						96:[total_len<346] yes=177,no=178,missing=177
+							177:[ttl<235] yes=311,no=312,missing=311
+								311:leaf=-0.391976655
+								312:leaf=0.428571463
+							178:[ttl<115] yes=313,no=314,missing=313
+								313:leaf=0.0614457838
+								314:leaf=-0.257765234
+		6:[udp_length<812] yes=13,no=14,missing=13
+			13:[total_len<396] yes=27,no=28,missing=27
+				27:[total_len<361] yes=51,no=52,missing=51
+					51:[diffserv<24] yes=97,no=98,missing=97
+						97:[total_len<357] yes=179,no=180,missing=179
+							179:[ttl<110] yes=315,no=316,missing=315
+								315:leaf=-0.0666666701
+								316:leaf=0.272727281
+							180:[total_len<360] yes=317,no=318,missing=317
+								317:leaf=0.557042837
+								318:leaf=0.367346942
+						98:[total_len<360] yes=181,no=182,missing=181
+							181:[total_len<357] yes=319,no=320,missing=319
+								319:leaf=-0.0967741981
+								320:leaf=0.317647099
+							182:leaf=-0.300000012
+					52:[total_len<364] yes=99,no=100,missing=99
+						99:[total_len<363] yes=183,no=184,missing=183
+							183:[ttl<122] yes=321,no=322,missing=321
+								321:leaf=-0.432558149
+								322:leaf=0.220253184
+							184:leaf=-0.394130915
+						100:[ttl<34] yes=185,no=186,missing=185
+							185:leaf=0.564179122
+							186:[diffserv<4] yes=323,no=324,missing=323
+								323:leaf=-0.0232465547
+								324:leaf=-0.168813556
+				28:[total_len<399] yes=53,no=54,missing=53
+					53:[total_len<398] yes=101,no=102,missing=101
+						101:[ttl<106] yes=187,no=188,missing=187
+							187:leaf=-0
+							188:[ttl<110] yes=325,no=326,missing=325
+								325:leaf=0.400000036
+								326:leaf=0.169230789
+						102:leaf=0.598099887
+					54:[total_len<559] yes=103,no=104,missing=103
+						103:[ttl<123] yes=189,no=190,missing=189
+							189:[total_len<422] yes=327,no=328,missing=327
+								327:leaf=-0.291737616
+								328:leaf=-0.147358671
+							190:[total_len<547] yes=329,no=330,missing=329
+								329:leaf=0.0471262634
+								330:leaf=-0.294163436
+						104:[ttl<124] yes=191,no=192,missing=191
+							191:[total_len<761] yes=331,no=332,missing=331
+								331:leaf=0.518877387
+								332:leaf=-0.336945832
+							192:[ttl<154] yes=333,no=334,missing=333
+								333:leaf=0.185531929
+								334:leaf=0.537391305
+			14:[udp_length<1349] yes=29,no=30,missing=29
+				29:[total_len<993] yes=55,no=56,missing=55
+					55:[total_len<943] yes=105,no=106,missing=105
+						105:[ttl<103] yes=193,no=194,missing=193
+							193:[total_len<923] yes=335,no=336,missing=335
+								335:leaf=-0.554518998
+								336:leaf=-0.389473706
+							194:[ttl<123] yes=337,no=338,missing=337
+								337:leaf=-0.116587684
+								338:leaf=0.0612529032
+						106:[diffserv<44] yes=195,no=196,missing=195
+							195:[total_len<985] yes=339,no=340,missing=339
+								339:leaf=-0.345772624
+								340:leaf=-0.45259589
+							196:[total_len<991] yes=341,no=342,missing=341
+								341:leaf=0.0361445807
+								342:leaf=-0.440000027
+					56:[total_len<1051] yes=107,no=108,missing=107
+						107:[total_len<1033] yes=197,no=198,missing=197
+							197:[ttl<107] yes=343,no=344,missing=343
+								343:leaf=-0.346153855
+								344:leaf=0.00606060633
+							198:[ttl<111] yes=345,no=346,missing=345
+								345:leaf=0.437288165
+								346:leaf=-0.126315802
+						108:[total_len<1295] yes=199,no=200,missing=199
+							199:[ttl<111] yes=347,no=348,missing=347
+								347:leaf=-0.115294121
+								348:leaf=-0.325888336
+							200:[diffserv<16] yes=349,no=350,missing=349
+								349:leaf=-0.0600000024
+								350:leaf=-0.280608386
+				30:[ttl<117] yes=57,no=58,missing=57
+					57:[total_len<1429] yes=109,no=110,missing=109
+						109:[diffserv<40] yes=201,no=202,missing=201
+							201:[ttl<109] yes=351,no=352,missing=351
+								351:leaf=0.323076963
+								352:leaf=-0.00942408387
+							202:[ttl<107] yes=353,no=354,missing=353
+								353:leaf=0.0043795621
+								354:leaf=-0.152542382
+						110:[udp_length<1468] yes=203,no=204,missing=203
+							203:[total_len<1455] yes=355,no=356,missing=355
+								355:leaf=0.218037143
+								356:leaf=0.561600029
+							204:[ttl<102] yes=357,no=358,missing=357
+								357:leaf=0.400000036
+								358:leaf=-0.176470608
+					58:[total_len<1433] yes=111,no=112,missing=111
+						111:[total_len<1388] yes=205,no=206,missing=205
+							205:[total_len<1385] yes=359,no=360,missing=359
+								359:leaf=0.306976765
+								360:leaf=-0.0428571478
+							206:[total_len<1429] yes=361,no=362,missing=361
+								361:leaf=0.375561088
+								362:leaf=0.120000005
+						112:[diffserv<24] yes=207,no=208,missing=207
+							207:leaf=0.569620311
+							208:leaf=0.150000006
