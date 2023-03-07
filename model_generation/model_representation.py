@@ -3,6 +3,7 @@ from tree_to_table.xgb import get_xgb_feature_thres,get_xgb_trees_table_entries
 from tree_to_table.utils import *
 import os
 
+current_path = os.getcwd()
 dir_path = os.path.abspath(os.path.dirname(os.getcwd())) #
 
 def get_flow_size_and_class_pkt():
