@@ -12,6 +12,6 @@ the codes running in switch including control plane and data plane
 ##### Generate flow table
 1. python model_representation.py
 ##### Excute Traffic classification
-1. complie and run p4 code (switch.p4) in data plane, and set switch port
-2. run the code (controller.py ) in control plane 
+1. complie and run p4 code (switch.p4) of data plane, and set switch port
+2. run the code (controller.py ) of control plane 
 3. send traffic...
